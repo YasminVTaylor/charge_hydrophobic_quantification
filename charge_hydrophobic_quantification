@@ -1,0 +1,37 @@
+b = ' '
+
+k = b.count('K')
+r = b.count('R')
+d = b.count('D')
+e = b.count('E')
+q = b.count('Q')
+n = b.count('N')
+h = b.count('H')
+s = b.count('S')
+t = b.count('T')
+y = b.count('Y')
+c = b.count('C')
+charged = (k+r+d+e+q+n+h+s+t+y+c)
+print('Charged:', charged)
+
+a = b.count('A')
+l = b.count('L')
+v = b.count('V')
+i = b.count('I')
+p = b.count('P')
+g = b.count('G')
+f = b.count('F')
+
+hydrophobic=(a+l+v+i+p+g+f)
+print('Hydrophobic:', hydrophobic)
+
+m = b.count('M')
+print('Methionine:', m)
+
+w = b.count('W')
+print('Tryptophan:', w)
+
+x = b.count('X')
+print('Any a.a:', x)
+
+print('Sequence Length', len(b))
